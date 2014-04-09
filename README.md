@@ -1,4 +1,4 @@
 BuildApp
 ========
 
-app自动生成
+app auto build
