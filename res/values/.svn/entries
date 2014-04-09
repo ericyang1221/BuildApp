@@ -1,0 +1,52 @@
+8
+
+dir
+2365
+http://124.232.150.75:8888/svn/mobile/android/BuildAppTemplate2/res/values
+http://124.232.150.75:8888/svn/mobile
+
+
+
+2013-05-06T07:32:02.274375Z
+2365
+peng.gu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f142d899-1507-7745-8580-7fd0b92f686d
+
+strings.xml
+file
+
+
+
+
+2013-05-06T09:59:13.000000Z
+674fcd3eb1ebfdd4f53081f0b8ab316f
+2013-05-06T07:32:02.274375Z
+2365
+peng.gu
+
+styles.xml
+file
+
+
+
+
+2013-05-06T09:59:13.000000Z
+691d77bf318014cd725842a190acbf79
+2013-05-06T07:32:02.274375Z
+2365
+peng.gu
+

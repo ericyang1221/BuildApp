@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.arvatoservice.arvatoshopping.view.TitleView
+        android:id="@+id/l_title"
+        android:layout_width="match_parent"
+        android:layout_height="65dp" >
+    </com.arvatoservice.arvatoshopping.view.TitleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/l_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/l_right"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="285dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/l_right" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="255dp"
+                android:text="首页"
+                android:textColor="#ffffffff"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

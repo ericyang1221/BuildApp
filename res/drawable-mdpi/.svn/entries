@@ -1,0 +1,41 @@
+8
+
+dir
+2365
+http://124.232.150.75:8888/svn/mobile/android/BuildAppTemplate2/res/drawable-mdpi
+http://124.232.150.75:8888/svn/mobile
+
+
+
+2013-05-06T07:32:02.274375Z
+2365
+peng.gu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f142d899-1507-7745-8580-7fd0b92f686d
+
+ic_launcher.png
+file
+
+
+
+
+2013-05-06T09:59:14.000000Z
+66833cd53180d3d04ba2a4f319510d41
+2013-05-06T07:32:02.274375Z
+2365
+peng.gu
+has-props
+

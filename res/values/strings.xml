@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">麦当劳</string>
+    <string name="store_address">门店地址</string>
+    <string name="message_center">消息中心</string>
+    <string name="coupon">优惠券</string>
+    <string name="product_list">产品列表</string>
+    <string name="no_product">没有商品</string>
+    <string name="search_hint">在这里输入</string>
+    <string name="coupon_item_empty">没有优惠券...</string>
+    <string name="network_error">网络错误...</string>
+    <string name="fav_exist">您已收藏过该条记录。</string>
+    <string name="add_fav_success">收藏成功。</string>
+    <string name="share_info">，关注本产品获取更多信息!</string>
+    <string name="cannot_share">分享功能暂时不可用,请稍后再试。</string>
+    <string name="no_seller_id">无法获取商户ID。</string>
+    <string name="shop_item_empty">没有商铺地址...</string>
+    <string name="push_msg_item_empty">没有消息...</string>
+    <string name="city_others">其他</string>
+    <string name="address">地址：</string>
+    <string name="phone">电话：</string>
+    <string name="tel">联系</string>
+    <string name="nav">导航</string>
+    <string name="share">分享</string>
+    <string name="navigation_loading_dialog_info">正在导航...</string>
+    <string name="loading_loading_dialog_info">载入中...</string>
+    <string name="push_msg_type_info">消息</string>
+    <string name="push_msg_type_coupon">优惠券</string>
+    <string name="push_msg_type_product">产品</string>
+
+</resources>

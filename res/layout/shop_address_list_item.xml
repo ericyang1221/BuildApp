@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/shop_address_list_item_content"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shop_address_list_item_background"
+        android:visibility="visible" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/shop_address_list_item_label" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/shop_address_listviewitem_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="哈哈哈哈哈哈"
+                android:textColor="#333333"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/shop_address_listviewitem_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#ffffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/shop_address_listviewitem_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#ffffffff"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dis_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/dis_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="5dp"
+                android:gravity="right"
+                android:text="3423" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:paddingRight="15dp" >
+
+            <ImageView
+                android:id="@+id/shop_address_listviewitem_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/shop_address_list_item_arrow"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/shop_address_list_item_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/list_item_loading"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/shop_address_list_network_error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/list_item_network_error"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/shop_list_empty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/shop_empty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/shop_item_empty" />
+    </RelativeLayout>
+
+</LinearLayout>
